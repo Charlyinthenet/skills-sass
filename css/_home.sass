@@ -1,0 +1,117 @@
+//first scroll
+#first-scroll
+  background-image: url(../img/bkg1.jpg)
+  background-size: cover
+  height: 754px
+
+#background-img
+  background-image: url(../img/bkg-bg.jpg)
+  background-size: cover 
+
+.centered-container
+  width: 80%
+  height: 660px
+  margin: 0 auto
+
+//second scroll
+
+#second-scroll
+  background-image: url(../img/bkg2.jpg)
+  background-size: cover
+  height: 754px
+
+.centered-container-min
+  width: 55%
+  height: 500px
+  margin: 0 auto  
+
+.arrow
+  margin-top: 20px
+
+  //header
+#header-section
+  background-image: url(../img/header-bkg.jpg)
+  background-color: $main-color50
+  background-size: cover
+  height: 754px
+
+#circle-wrapper
+  width: 100%
+
+.circle
+  border-radius: 50%
+  margin-left: 10px
+  &:hover
+    box-shadow: 0 0 100px
+    color: white
+
+.sx-circle
+  position: relative
+
+.dx-circle
+  position: relative
+  margin-right: -90px
+
+.student-boy
+  right: 77px
+
+.professional-girl
+  left: 77px  
+
+
+//hover of first and second scroll
+
+.link_active
+  text-decoration: none
+  display:block
+  position: relative
+  overflow: hidden
+  padding: 10px
+  transition: color .3s cubic-bezier(0.11, 0.7, 0, 1)
+
+.visited
+  box-shadow: 0 0 100px
+  color: white 
+
+.link_active:after 
+  position: absolute
+  bottom: 0
+  left: 0
+  display: block
+  width: 100%
+  height: 6px
+  background-color: $main-color500
+  content: ""
+  transform: scale(0)
+  transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1)
+
+.link-boy-student:after
+  left: -72px
+
+.link-girl-professional:after
+  left: 72px
+
+.link_active:hover:after 
+  transform: scale(1)
+
+.lighten-circle
+
+// style of second scroll divs
+.sx-div-img
+
+.dx-select
+  
+.button 
+  display: inline-block
+  position: relative
+  width: 120px
+  height: 32px
+  line-height: 32px
+  border-radius: 2px
+  font-size: 0.9em
+  background-color: #fff
+  color: black
+
+a
+  text-decoration: none
+  color: black

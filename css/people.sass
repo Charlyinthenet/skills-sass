@@ -1,0 +1,157 @@
+p 
+  color: black
+
+#peoplePage
+  background-image: url(../img/bkg1.jpg)
+
+#blurrie 
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0px
+  z-index: 1000
+
+#sidebar 
+  height: 100%
+  width: 280px
+  background: #fff
+  position: fixed
+  z-index: 1001
+  top: 0px
+  left: -280px
+
+#img-header 
+  background-image: url(../img/header-bkg.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  height: 150px
+
+#sidebar > li 
+  padding: 20px 0px 15px 25px
+  list-style-type: none
+  height: 24px
+
+#bar
+  width: 100vw
+  height: 56px
+  background-color: $main-color500
+  color: black
+  line-height: 56px
+  font-size: 22px
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+
+#togglenav 
+  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_menu_white_48px.svg)
+  background-size: 29px 29px
+  background-repeat: no-repeat
+  height: 30px
+  width: 30px
+  border: none
+  background-color: transparent
+  outline: none
+  top: 14px
+  position: absolute
+  left: 15px
+
+#home 
+  background-image: url(../img/brain.png)
+  color: black
+
+#info 
+  background-image: url(../img/goal.png)
+  color: black
+
+#team 
+  background-image: url(../img/me.png)
+  color: black
+
+#contact 
+  background-image: url(../img/save-sm.png)
+  color: black
+
+#home, #info, #team, #contact 
+  background-repeat: no-repeat
+  background-position-y: 21px
+  background-position-x: 20px
+  text-indent: 40px
+
+#sidebar > p:hover 
+  background-color: rgba(0, 0, 0, 0.1)
+
+.margin
+  margin-top: 68px
+
+.ripple 
+  position: absolute
+  background: rgba(0,0,0,.25)
+  border-radius: 100%
+  -webkit-transform: scale(0)
+  -ms-transform: scale(0)
+  transform: scale(0)
+  pointer-events: none
+
+.ripple.show 
+  -webkit-animation: ripple 1s ease-out
+  animation: ripple 1s ease-out
+
+button, li, .menu-items
+  position: relative
+  display: block
+  border: none
+  outline: none
+  cursor: pointer
+  overflow: hidden
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  border-radius: 2px
+  margin: 0px
+  padding: 24px
+  vertical-align: middle
+
+.btn
+  text-decoration: none
+  color: #FFF
+  background-color: $main-color500
+  text-align: center
+  letter-spacing: .5px
+  cursor: pointer
+  border: none
+  border-radius: 2px
+  display: inline-block
+  height: 36px
+  line-height: 36px
+  outline: 0
+  padding: 0 1rem
+  margin: 18px
+  text-transform: uppercase
+  vertical-align: middle
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+  text-indent: 0px
+
+.card 
+  padding: 10px
+  margin: 0 auto
+  margin-top: 26px
+  background-color: white
+  width: 70%
+  height: 100%
+  box-sizing: border-box
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2)
+  border-radius: 3px
+
+.photoProfile  
+  height: 100%
+  border-radius: 50%
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2)
+
+.boxJobTitleProfile
+  display: inline-block
+  box-sizing: border-box
+  float: left
+
+.boxPhotoProfile
+
